@@ -1,2 +1,7 @@
 *.class
 *.log
+
+target/
+output/
+*.jar
+.DS_Store
