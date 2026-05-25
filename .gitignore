@@ -5,3 +5,4 @@ target/
 output/
 *.jar
 .DS_Store
+spark-logs/

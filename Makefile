@@ -19,10 +19,11 @@ hdfs.input=input
 hdfs.output=output
 # AWS EMR Execution
 aws.emr.release=emr-6.10.0
-aws.bucket.name=cs6240-demo-bucket
+# aws.bucket.name=cs6240-demo-bucket
+aws.bucket.name=cs6240-hw1-spark-prabesh-nepal-2026
 aws.input=input
-aws.output=output
-aws.log.dir=log
+aws.output=spark-output
+aws.log.dir=spark-log
 aws.core.num.nodes=2
 aws.primary.num.nodes=1
 # aws.task.num.nodes=1
