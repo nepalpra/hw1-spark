@@ -26,6 +26,9 @@ object WordCountMain {
     val counts = textFile.flatMap(line => line.split(" "))
                  .map(word => (word, 1))
                  .reduceByKey(_ + _)
+    //logger.info("Here: ")
+    logger.info(counts.toDebugString)
+    //logger.info("End!")
     counts.saveAsTextFile(args(1))
   }
 }
